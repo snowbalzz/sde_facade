@@ -11,5 +11,7 @@ public class Main {
         actionFacade.endMovie();
         actionFacade.VibingSessionOn();
         actionFacade.VibingSessionOff();
+        actionFacade.TurnRadioOn();
+        actionFacade.TurnRadioOff();
     }
 }

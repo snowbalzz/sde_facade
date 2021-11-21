@@ -47,6 +47,7 @@ public class ActionFacade {
         dvd.play("Neon Genesis Evangelion: The End of Evangelion");
 
         System.out.println("Enjoy your movie!");
+        System.out.println("------------------------------------------------");
     }
 
     public void endMovie(){
@@ -69,6 +70,7 @@ public class ActionFacade {
         dvd.off();
 
         System.out.println("No more Netflix and Chill!!");
+        System.out.println("------------------------------------------------");
     }
 
     public void VibingSessionOn(){
@@ -86,6 +88,7 @@ public class ActionFacade {
         cd.play("Oliver Tree - Bury Me Alive");
 
         System.out.println("Listen to my mix-tape!");
+        System.out.println("------------------------------------------------");
     }
 
     public void VibingSessionOff(){
@@ -98,6 +101,7 @@ public class ActionFacade {
         cd.off();
 
         System.out.println("It seems you do not like my mix-tape!");
+        System.out.println("------------------------------------------------");
     }
 
     public void TurnRadioOn(){
@@ -111,6 +115,7 @@ public class ActionFacade {
         amp.setTuner(tuner);
 
         System.out.println("Most popular station in Latvia Playing!");
+        System.out.println("------------------------------------------------");
     }
 
     public void TurnRadioOff(){
@@ -121,6 +126,7 @@ public class ActionFacade {
         amp.off();
 
         System.out.println("No Radio!");
+        System.out.println("------------------------------------------------");
     }
 
 }
