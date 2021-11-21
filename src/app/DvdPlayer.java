@@ -6,9 +6,9 @@ public class DvdPlayer {
     Amplifier amplifier;
     String movie;
 
-    public DvdPlayer(String description, Amplifier amplifier) {
+    public DvdPlayer(String description, Amplifier _amplifier) {
         this.description = description;
-        this.amplifier = amplifier;
+        amplifier = _amplifier;
     }
 
     public void on() {

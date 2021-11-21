@@ -42,7 +42,6 @@ public class Amplifier {
 
     public void setCd(CdPlayer cd) {
         System.out.println(description + " setting CD player to " + cd);
-        this.cd = cd;
     }
 
     public String toString() {
